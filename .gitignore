@@ -1,0 +1,10 @@
+.DS_Store
+.git/*
+.idea/*
+*.swap
+notebooks/.ipynb_checkpoints/*
+data/*
+!tmp/.gitkeep
+tmp/*
+**/__pycache__/*
+**/.ipynb_checkpoints/*
