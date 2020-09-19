@@ -2,6 +2,14 @@
 # -*- coding:utf-8 -*-
 # Created by koretsunobuyasu on 2020/07/29
 from datetime import datetime
+from pathlib import Path
+import sys
+import os.path
+import resource
+
+path = Path(os.path.dirname(__file__))
+PROJ_ROOT = str(path)+'/work'
+
 
 # original data and interim data
 # TODO: strftimeを日付は引数に変更する必要あり...?(午前に回す場合前日のデータが必要になったりするから)
